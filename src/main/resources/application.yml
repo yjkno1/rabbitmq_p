@@ -1,0 +1,27 @@
+server:
+  port: 8081
+
+spring:
+  rabbitmq:
+    host: localhost
+    username: admin
+    password: admin
+    port: 5672
+    
+#  datasource:
+#    url: jdbc:mariadb://yjkno1.synology.me:3307/tran_db?autoReconnect=true&useUnicode=true&characterEncoding=utf8
+#    driver-class-name: org.mariadb.jdbc.Driver
+#    username: root
+#    password: Wnsxhtm1212!
+#    hikari:
+#      pool-name: springHikariCP-CMS
+#      maximum-pool-size: 15
+#      minimum-idle: 5
+#      connection-timeout: 30000  #30s
+#      validation-timeout: 5000
+#      max-lifetime: 60000  #10m
+#      data-source-properties:
+#        cachePrepStmts: true
+#        prepStmtCacheSize: 250
+#        prepStmtCacheSqlLimit: 2048
+#        useServerPrepStmts: true
